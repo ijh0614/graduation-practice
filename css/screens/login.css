@@ -75,6 +75,7 @@
     height: 11vh;
     width: 3vh;
     margin: 1vh 0;
+    text-shadow: 0 0 1vh aliceblue;
     color: aliceblue;
     font-size: 2vh;
     border-style: none;
@@ -82,12 +83,23 @@
     transition: box-shadow 0.3s ease-in-out;
     background-color: var(--login-main-color);
 }
+/*확인
+.site-login textarea {
+    height: 11vh;
+    width: 1vh;
+    margin: 1vh 0;
+    text-shadow: 0 0 1vh aliceblue;
+    color: aliceblue;
+    font-size: 2vh;
+    border-style: none;
+    border-radius: 0.7vh;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: var(--login-main-color);
+}
+*/
 .site-login input::placeholder {
     color: aliceblue;
     font-size: 2vh;
-}
-.site-login input:focus {
-    box-shadow: 0 0 1vh rgb(115, 161, 202);
 }
 .site-login input:focus::placeholder {
     color: var(--login-main-color);
